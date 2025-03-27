@@ -3,5 +3,7 @@ src = "src"
 out = "out"
 libs = ["lib"]
 via_ir = true
+solc = "0.8.28" # to use a specific local solc install set the path as `solc = "<path to solc>/solc"`
+etherscan_api_key = "CJYK7NDRB31UNZQ47C71YNU5WTXYQME874"
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
